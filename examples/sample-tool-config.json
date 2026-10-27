@@ -1,0 +1,14 @@
+{
+  "id": "fence-post-example",
+  "slug": "fence-post-concrete-calculator",
+  "market": "en-US",
+  "job": "Estimate net concrete fill for multiple post holes",
+  "coreCapability": "cylinder_volume_difference",
+  "inputSchema": ["holeDiameter", "holeDepth", "postDiameter", "postCount", "unit"],
+  "outputSchema": ["netVolume", "bags", "cubicYards"],
+  "sampleStatus": "illustrative-not-validated",
+  "uniqueValue": "Subtracts post displacement and multiplies by post count",
+  "indexDecision": "experiment",
+  "relatedToolIds": ["concrete-bag-calculator"],
+  "sources": []
+}

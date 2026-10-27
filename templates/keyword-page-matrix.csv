@@ -1,0 +1,3 @@
+keyword,intent,persona,job,core_capability,candidate_url,unique_value,evidence_source,evidence_date,volume,kd,index_decision,priority
+concrete slab calculator,transactional,DIY,calculate slab concrete volume,volume_and_bags,/concrete-slab-calculator,slab dimensions and bags output,example-only,,unverified,unverified,ship,P1
+how many bags of concrete for 4x4 slab,informational,DIY,calculate one slab size,volume_and_bags,/concrete-slab-calculator,example within slab tool not separate URL,example-only,,unverified,unverified,merge,P2
