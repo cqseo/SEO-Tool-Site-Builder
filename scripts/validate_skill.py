@@ -30,7 +30,7 @@ else:
             errors.append(f"Missing referenced file: {path}")
     if len(text.splitlines()) > 500:
         errors.append("SKILL.md exceeds the recommended 500-line maximum")
-    for pattern in [r"^## G1", r"^## G2", r"^## G3"]:
+    for pattern in [r"^## G0", r"^## G1", r"^## G2", r"^## G3"]:
         if not re.search(pattern, text, re.M):
             errors.append(f"Missing stage heading: {pattern}")
     for label, pattern in {
@@ -48,4 +48,4 @@ else:
 if errors:
     print("FAILED:\n" + "\n".join("- " + e for e in errors))
     sys.exit(1)
-print(f"PASS: {ROOT.name}; metadata, G1/G2/G3, local references and execution safeguards present")
+print(f"PASS: {ROOT.name}; metadata, G0/G1/G2/G3, local references and execution safeguards present")
