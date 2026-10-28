@@ -1,5 +1,5 @@
 interface:
   display_name: "SEO Tool Site Builder"
-  short_description: "工具站研究、开发、真实 QA、发布与增长"
+  short_description: "网站SEO审计、工具站研究开发、真实QA与增长"
   icon_small: "./assets/icon.svg"
-  default_prompt: "请按 seo-tool-site-builder 的标准，先读取当前项目状态和相关参考文件，再按 G1/G2/G3 推进。执行真实操作前先检查可用工具与权限；尊重我指定的部署路径；交付实际文件、版本、测试证据和未验证项。"
+  default_prompt: "请按 seo-tool-site-builder 的标准，先读取当前项目状态和相关参考文件，根据需求选择 G0 只读SEO审计、G1 研究立项、G2 开发修复或 G3 发布增长；未明确授权修复时只分析不改站。执行真实操作前先检查可用工具与权限；尊重我指定的部署路径；交付实际文件、版本、测试证据和未验证项。"
